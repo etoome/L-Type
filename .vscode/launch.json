@@ -1,0 +1,97 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+
+        {
+            "name": "Server",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/bin/debug-server",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "make debug-server"
+        },
+        {
+            "name": "CLI",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/bin/debug-cli",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "make debug-cli"
+        },
+        {
+            "name": "GUI",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/bin/debug-gui",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "make debug-gui"
+        },
+        {
+            "name": "buildAssets.py",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/buildAssets.py",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "admin.py",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/admin.py",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "addDbLevels.py",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/buildAssets.py",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "buildDatabase.py",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/buildDatabase.py",
+            "console": "integratedTerminal"
+        }
+    ]
+}
