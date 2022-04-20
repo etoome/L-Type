@@ -7,6 +7,8 @@ CREATE TABLE IF NOT EXISTS 'accounts' (
 	'admin'	INTEGER NOT NULL DEFAULT 0
 );
 INSERT INTO 'accounts' ('username', 'password', 'admin') VALUES ('tijl', '_', 1);
+-- admin:password
+INSERT INTO 'accounts' ('username', 'password', 'admin') VALUES ('admin', '5e884898da28047151d0e56f8dc6292773603d0d6aabbdd62a11ef721d1542d8', 1);
 
 -- Follows --
 
