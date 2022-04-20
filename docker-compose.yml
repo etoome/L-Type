@@ -6,7 +6,8 @@ services:
       container_name: web-type
       environment:
          - VNC_PW=password
-         - ADMIN_PW=password
+         - ADMIN_USERNAME=admin
+         - ADMIN_PASSWORD=password
       ports:
          - 1793:6901
       shm_size: "512m"

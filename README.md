@@ -82,11 +82,12 @@ make run-gui
 
 <u>Note</u>: the server must be run before the client.
 
+# Play
+
 ## Administrator
 
-```
-python3 admin.py
-```
+- **User** : `admin`
+- **Password**: `password`
 
 # Contributors
 

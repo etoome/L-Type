@@ -38,6 +38,7 @@ RUN mkdir -p /opt/l-type/static
 RUN mv bin/server /opt/l-type/l-type_server
 RUN mv bin/client-gui /opt/l-type/l-type_client-gui
 RUN mv static/* /opt/l-type/static/
+RUN python3 admin.py create $ADMIN_USERNAME $ADMIN_PASSWORD
 
 WORKDIR $HOME
 
