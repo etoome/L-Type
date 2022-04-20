@@ -20,7 +20,18 @@
   <img width="325" src="https://github.com/Progitiel/l-type/blob/main/screenshots/gui_packs.png">
 </div>
 
-# Develop
+# Play in the browser
+
+```
+docker compose up -d --build
+```
+
+https://localhost:1793/
+
+- **User** : `kasm_user`
+- **Password**: `password`
+
+# Develop in local
 
 ## Dependencies
 
