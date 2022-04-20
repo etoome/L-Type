@@ -26,7 +26,7 @@
 docker compose up -d --build
 ```
 
-https://localhost:1793/
+Go to: https://localhost:1793/
 
 - **User** : `kasm_user`
 - **Password**: `password`
