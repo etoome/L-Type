@@ -82,9 +82,7 @@ make run-gui
 
 <u>Note</u>: the server must be run before the client.
 
-# Play
-
-## Administrator
+# Administrator
 
 - **User** : `admin`
 - **Password**: `password`
