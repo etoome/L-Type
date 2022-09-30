@@ -1,0 +1,12 @@
+---
+version: "2.1"
+services:
+   web-type:
+      build: .
+      container_name: web-type
+      environment:
+         VNC_PW: password
+      ports:
+         - 1793:6901
+      shm_size: "512m"
+      restart: unless-stopped
